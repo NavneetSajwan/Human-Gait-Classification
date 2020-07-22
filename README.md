@@ -1,4 +1,9 @@
 # Human-Gait-Classification-with-EMG
+
+Classifying human gait is an imortant task for a bionic feet mechanism. Based on the movement of the person, the artificial feet has to adapt to the situation in real-time. This calls for fast and accurate algorithms to predict the movement of human.
+
+In this project I take up a similar problem.
+
 There are 5 classes for human gait in this problem
 
 1. LG - level ground
@@ -39,3 +44,9 @@ Plots of all four classes are different from each other.
 *Here, is an example. I have shown 4 of the 5 classes of data here*
 
    ![](images/four_classes.jpg)
+   
+## Results
+
+Results are remarkable. It took 6 seconds to train a resnet18 model upto an accuracy of 97 % !
+
+With around 2% increment in accuracy, it can be reported that experiment with CNNs was successful.
