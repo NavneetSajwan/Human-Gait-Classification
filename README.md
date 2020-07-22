@@ -32,4 +32,10 @@ So, now I have 1000 images for each class. Since, there are 5 classes I have a t
 
 *Below, is a sample image data for our CNN. You can see three plots. Each plot belong to each axis(X, Y, Z) of the accelerometer.*
 
-  ![](images/data_sample.png)
+   ![](images/data_sample.png)
+   
+Plots of all four classes are different from each other.
+
+*Here, is an example. I have shown 4 of the 5 classes of data here*
+
+   ![](images/four_classes.jpg)
