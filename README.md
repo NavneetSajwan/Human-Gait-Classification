@@ -30,4 +30,6 @@ A step size smaller than the window size would result in different sections of t
 
 So, now I have 1000 images for each class. Since, there are 5 classes I have a total of 5000 images.
 
-![](images/data_sample.png)
+*Below, is a sample image data for our CNN. You can see three plots. Each plot belong to each axis(X, Y, Z) of the accelerometer.*
+
+  ![](images/data_sample.png)
