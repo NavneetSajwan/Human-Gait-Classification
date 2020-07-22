@@ -29,3 +29,5 @@ A step size greater than the window size would have result in the loss of valuab
 A step size smaller than the window size would result in different sections of the cycle ending up in the data. As long as there is visible pattern and sufficient data, a neural network should be able to learn that. But, I preferred to go easy on my network and chose a step size of 250 sample. Thus, effectively taking the similar looking cycle. 
 
 So, now I have 1000 images for each class. Since, there are 5 classes I have a total of 5000 images.
+
+![](images/data_sample.png)
