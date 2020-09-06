@@ -1,4 +1,4 @@
-# Human-Gait-Classification-with-EMG
+# Human Gait Classification using CNNs
 
 Classifying human gait is an imortant task for a bionic feet mechanism. Based on the movement of the person, the artificial feet has to adapt to the situation in real-time. This calls for fast and accurate algorithms to predict the movement of human.
 
@@ -12,9 +12,11 @@ There are 5 classes for human gait in this problem
 4. SA - stair ascend
 5. SD - stair descend
 
-DATA - An accelerometer sensor is attached to the human foot. Its data is collected for several steps and for several subjects.
+## DATA
+An accelerometer sensor is attached to the human foot. Its data is collected for several steps and for several subjects.
 
-APPROACH - Machine Learning algoriths like SVM, DECISION TREES and RANDOM FORESTS provided around 95% accuracy on this problem. But, I was curious how deep learning networks, especially CNNs would perform on this data. CNNs being Deep Neural networks are significantly slower than the classical ML algorithms. But, the idea is if they provide sufficient increase in accuracy , then there use can be considered in real-time. Moreover, when CNNs can be used in real time for self-driving cars, with appropriate compute power they sure can be used for real-time gait classification for bionic feet.
+## APPROACH
+Machine Learning algoriths like SVM, DECISION TREES and RANDOM FORESTS provided around 95% accuracy on this problem. But, I was curious how deep learning networks, especially CNNs would perform on this data. CNNs being Deep Neural networks are significantly slower than the classical ML algorithms. But, the idea is if they provide sufficient increase in accuracy , then there use can be considered in real-time. Moreover, when CNNs can be used in real time for self-driving cars, with appropriate compute power they sure can be used for real-time gait classification for bionic feet.
 
 First stage was to convert tabular data into images to be fed into a CNN. I used matplotlib to plot the columns.
 
